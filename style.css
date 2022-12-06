@@ -1,0 +1,85 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.background {
+    background-color: beige;
+}
+
+.title {
+    color: rgb(125, 15, 15);
+    font-size: 40px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.text {
+    color: black;
+    font-size: 25px;
+}
+
+.play-button {
+    height: 20vh;
+    width: 20vw;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: #dfcaa6;
+    border-radius: 80%;
+    border-color: rgb(173, 156, 131);
+}
+
+.cookie-button {
+    background: transparent;
+    border: transparent;
+    background-image: url(images/cookie.png);
+    height: 295px;
+    width: 313px;
+    cursor: pointer;
+}
+
+.cookie-button:hover {
+    transform: translateY(-4px);
+  }
+
+.cookie-button:active {
+    transform: translateY(4px);
+  }
+
+.cookie-count {
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.message {
+    color: rgb(109, 64, 64);
+    font-size: 30px;
+}
+
+.progress-bar-border {
+    margin: auto;
+    width: 90%;
+    height: 9.2vh;
+    background-color: rgb(173, 156, 131);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8vh;
+    font-size: 40px;
+    background-color: white;
+}
+
+.progress {
+    width: 0%;
+    height: 8vh;
+    font-size: 40px;
+    background-color: rgb(87, 189, 61);
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/cookie.png" />
+    <script src="script.js" defer></script>
+    <title>Cookie Clicker</title>
+    <h1 class="title">Cookie Clicker</h1>
+  </head>
+  <body class="background">
+    <div class="instructions" id="instructions">
+      <p class="text">
+        Welcome to Ethan's cookie clicker!
+        <br />
+        After you click the 'Play!' button, click on the cookie to earn cookies.
+        <br />
+        Try to click as fast as you can to achieve a high cookies per second
+        score!&nbspAs you earn more cookies, you will get more cookies per
+        click!
+        <br />
+        <br />
+        Click 'Play!' when you're ready!
+      </p>
+      <button class="play-button" id="playButton">Play!</button>
+    </div>
+    <div class="hide" id="game">
+      <div class="cookie-count">
+        <div id="cookieCount" number-of-cookies></div>
+        <div id="cookieClick" cookies-per-click></div>
+        <div id="cookieRate" cookies-per-second></div>
+      </div>
+      <br />
+      <button class="cookie-button" id="cookieButton"></button>
+      <br />
+      <br />
+      <div class="message">
+        <div id="upgradeText" upgrade-text></div>
+        <div id="congratsText" congrats-text></div>
+      </div>
+      <br />
+      <br />
+      <div class="progress-bar-border" id="progress-bar-border">
+        <div class="progress-bar" id="progressBar">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
