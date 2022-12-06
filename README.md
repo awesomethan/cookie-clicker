@@ -1,1 +1,1 @@
-# cookie-clicker
+As an introductory web dev project, I made a simulation of the popular game Cookie Clicker! Feel free to download the files and give it a try. There are definitely many improvements that can be made, so I'll try to make better and more visually pleasing projects in the future!
